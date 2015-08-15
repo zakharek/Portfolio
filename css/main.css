@@ -45,8 +45,8 @@ img, embed, object, video {
 }
 
 .divider {
-	background-color: #606060;
-	height: 1px;
+	background-color: #BCBBBB;
+	height: 2px;
 	margin-bottom: 20px;
 }
 .description {
