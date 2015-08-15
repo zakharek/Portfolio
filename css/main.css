@@ -2,16 +2,12 @@
 @media only screen and (max-width: 768px)  {
 
 	.logo .img-responsive {
-
 		margin:0 auto;
 	}
 
 	.my-name {
-
 		text-align: center;
 	}
-
-	
 }
 
 body {
@@ -19,7 +15,6 @@ body {
 	color:#606060;
 	font-weight: 300px;
 }
-
 
 .text-mute {
 	color:#BCBBBB;
