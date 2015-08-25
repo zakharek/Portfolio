@@ -1,179 +1,174 @@
 body {
-	font-family: 'Lato', sans-serif;
-	color: #606060;
-	font-weight: 300;
+    font-family: "Lato", sans-serif;
+    color: #606060;
+    font-weight: 300;
 }
 
 .navbar {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .navbar-nav {
-	float:none;
-	margin: 0;
+    float: none;
+    margin: 0;
 }
 
-.navbar-nav > li  {
-	float:none;
-	display: inline-block;
+.menu-item {
+    float: none;
+    display: inline-block;
 }
 
 .navbar-default {
-	background-color: transparent;
-	border:none;
-	
+    background-color: transparent;
+    border: none;
 }
 
-.navbar-header{
-	background-color: transparent;
+.navbar-header {
+    background-color: transparent;
 }
 
 .text-mute {
-	color: #bcbbbb;
-	letter-spacing: 1.5px;
+    color: #bcbbbb;
+    letter-spacing: 1.5px;
 }
 
-.navbar-toggle{
-
-	float:none;
-	margin-left: 10px;
+.navbar-toggle {
+    float: none;
+    margin-left: 10px;
 }
 
 .navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover{
-	background-color: #f8f8f8;
+.navbar-default .navbar-toggle:hover {
+    background-color: #f8f8f8;
 }
 
 .text-thin {
-
-	font-weight: 100;
+    font-weight: 100;
 }
 
 .title-super {
-	font-size: 52px;
+    font-size: 52px;
 }
 
 .title-logo {
-	margin: 20px 0 20px 0;
-	max-width: 120px;
-	max-height: 120px;
+    margin: 20px 0 20px 0;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 nav {
-	background: none;
-	border: none;
-	margin-top: 70px;
-	list-style: none;
-	white-space: nowrap;
-	font-size: 17px;
+    background: none;
+    border: none;
+    margin-top: 70px;
+    list-style: none;
+    white-space: nowrap;
+    font-size: 17px;
 }
 
 ul {
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 li {
-	display: inline-block;
+    display: inline-block;
 }
 
 a {
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
-img, 
-embed, 
-object, 
+img,
+embed,
+object,
 video {
-
-	max-width: 100%;
+    max-width: 100%;
 }
 
 .divider {
-	height: 1px;
-	margin-bottom: 20px;
-	border-top: 1px solid #bcbbbb;
+    height: 1px;
+    margin-bottom: 20px;
+    border-top: 1px solid #bcbbbb;
 }
 
 .description {
-	margin: 10px 10px 10px;
+    margin: 10px 10px 10px;
 }
 
 h2,
-h3{
-	font-size: 35px;
+h3 {
+    font-size: 35px;
 }
 
 .project {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 footer {
-	margin-top: 40px;
-	padding-bottom: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
 }
 
 
 /* Mobile */
-@media only screen and (max-width: 768px)  {
+@media only screen and (max-width: 768px) {
 
-	.logo .img-responsive {
-		margin: 0 auto;
-	}
+    .logo .img-responsive {
+        margin: 0 auto;
+    }
 
-	.my-name {
-		text-align: center;
-	}
+    .my-name {
+        text-align: center;
+    }
 
-	nav {
-		margin-top: 0;
-	}
+    nav {
+        margin-top: 0;
+    }
 
-	.navbar-default .navbar-nav>li{
-		text-align: center;
-	}
+    .navbar-default .menu-item {
+        text-align: center;
+    }
 
-	.logo-desktop{
-		display: none;
-	}
+    .logo-desktop {
+        display: none;
+    }
 
-	nav.col-xs-12{
+    nav.col-xs-12 {
+        padding: 0;
+    }
 
-		padding:0;
-	}
+    .logo-mobile > div {
+        display: inline-block;
+        padding: 5px 0 0 10px;
+    }
 
-	.logo-mobile > div{
-		display: inline-block;
-		padding: 5px 0 0 10px;
-	}
+    .navbar-default .navbar-collapse {
+        border-color: #bcbbbb;
+        border-top: 1px solid #bcbbbb;
+        padding: 0;
+    }
 
-	.navbar-default .navbar-collapse{
-		border-color: #bcbbbb;
-		border-top: 1px solid #bcbbbb;
-		padding: 0;
-	}	
+    .menu-item:hover {
+        background-color: #f8f8f8;
+    }
 
-	.navbar-nav > li:hover {
-		background-color: #f8f8f8;
-	}	
-
-	.navbar-nav > li  {
-		float:none;
-		display: block;
-	}
+    .menu-item {
+        float: none;
+        display: block;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 1000px) {
-   .title-super {
-	  font-size: 40px;
-	}	
+    .title-super {
+        font-size: 40px;
+    }
 
-	.title-logo{
-		margin: 0;
-		padding-bottom: 15px;
-	}
+    .title-logo {
+        margin: 0;
+        padding-bottom: 15px;
+    }
 
-	nav{
-		margin-top: 40px;
-	}
+    nav {
+        margin-top: 40px;
+    }
 }
